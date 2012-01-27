@@ -18,6 +18,7 @@ Requires:       ruby(abi) = 1.8
 BuildRequires:  ruby-RubyGems
 BuildRequires:  ruby-devel
 BuildRequires:  sqlite-devel
+BuildRequires:  pkgconfig(sqlite3)
 BuildRequires:  rubygem(rake)
 Obsoletes:      rubygem-sqlite3-ruby < 1.3.3
 Provides:       rubygem(%{gemname}) = %{version}-%{release}

@@ -4,7 +4,7 @@
 Summary:	This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)
 Name:		rubygem-%{rbname}
 
-Version:	1.3.5
+Version:	1.3.6
 Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
@@ -56,3 +56,12 @@ Documents, RDoc & RI documentation for %{name}.
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.txt
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/ext/sqlite3/*.c
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
+
+
+%changelog
+* Fri Jan 27 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.3.5-1
++ Revision: 769341
+- spec file regenerated from gem2rpm5 script
+- BR:pkgconfig(sqlite3)
+- imported package rubygem-sqlite3
+

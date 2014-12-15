@@ -4,12 +4,12 @@
 Summary:	Interface with the SQLite3 database engine
 Name:		rubygem-%{rbname}
 
-Version:	1.3.6
-Release:	2
+Version:	1.3.9
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/luislavena/sqlite3-ruby
-Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
+Source0:	http://gems.rubyforge.org/gems/sqlite3-1.3.9.gem
 BuildRequires:	rubygems >= 1.3.5
 BuildRequires:	ruby-devel
 BuildRequires:	rubygem(rake)
@@ -56,12 +56,3 @@ Documents, RDoc & RI documentation for %{name}.
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/*.txt
 %doc %{ruby_gemdir}/gems/%{rbname}-%{version}/ext/sqlite3/*.c
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
-
-
-%changelog
-* Fri Jan 27 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.3.5-1
-+ Revision: 769341
-- spec file regenerated from gem2rpm5 script
-- BR:pkgconfig(sqlite3)
-- imported package rubygem-sqlite3
-

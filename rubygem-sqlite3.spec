@@ -4,7 +4,7 @@ Summary:	Interface with the SQLite3 database engine
 Name:		rubygem-%{rbname}
 
 Version:	1.3.9
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/luislavena/sqlite3-ruby

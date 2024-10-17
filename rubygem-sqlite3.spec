@@ -7,7 +7,7 @@ Version:	1.3.9
 Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
-URL:		http://github.com/luislavena/sqlite3-ruby
+URL:		https://github.com/luislavena/sqlite3-ruby
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems >= 1.3.5
 BuildRequires:	ruby-devel
